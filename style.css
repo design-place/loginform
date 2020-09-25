@@ -1,0 +1,74 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background: url('bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+        }
+form{
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    top: 8%;
+    background-color: white;
+    width: 25%;
+    padding: 30px;
+}
+form h3{
+    font-weight: 100;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(21, 118, 230);
+}
+form label{
+    text-align: left;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    border:1px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+}
+input[type='button']{
+    width: 30%;
+    margin-left: 70%;
+    background-color: rgb(29, 114, 224);
+    color: white;
+    outline:none;
+    cursor: pointer;
+}
+form p{
+    color: gray;
+    font-size: 15px;
+}
+.social-icon svg{
+    width: 8%;
+    padding-left: 10px;
+    padding-right: 10px;
+    fill: gray;
+    cursor: pointer;
+}
+.social-icon svg:hover{
+    fill: blue;
+}
+
+@media(max-width: 800px) {
+    form{
+        position: absolute;
+        width: 45%;
+        left: 27.5%;
+        right: 27.5%;
+        top: 8%;
+    }
+}
+@media(max-width: 576px) {
+    form{
+        position: absolute;
+        width: 88%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
